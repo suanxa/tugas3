@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow android:background="#45ffff">
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="OPEN"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+O"/>
+        </TableRow>
+
+        <TableRow android:background="#009662">
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="SAVE"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+S"/>
+        </TableRow>
+
+        <TableRow android:background="#00BCD4">
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="PRINT"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+P"/>
+        </TableRow>
+
+        <TableRow android:background="#009688">
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="COPY"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+V"/>
+        </TableRow>
+        <TableRow android:background="#00BCD4">
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="PASTE"/>
+            <TextView
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:text="ctrl+V"/>
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
